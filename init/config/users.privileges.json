@@ -1,0 +1,1 @@
+[{"_id":1,"user_id":1,"database":"test","privileges":["read","write","delete","update"],"state":true,"created_at":"2020-01-24T15:23:08.651Z","updated_at":"2020-01-24T15:23:08.651Z"}]
