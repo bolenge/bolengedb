@@ -1,6 +1,6 @@
 {
   "name": "bolengedb",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Module nodejs qui permet de gérer les données sous forme d'une base de données partant de fichiers JSON.",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,6 @@
   "license": "MIT",
   "dependencies": {
     "mb-file": "0.0.1",
-    "mbnumber": "^0.1.0",
-    "testyfile": "^1.0.0"
+    "mbnumber": "^0.1.0"
   }
 }
