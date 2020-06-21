@@ -86,10 +86,15 @@ client.connect((err, db) => {
 
     let collection = db.collection('famille');
 
-    collection.insert({papa: "Pierro", maman: "Bolenge"}, (err_creating, results) => {
-        if (err_creating) throw err_creating;
+    // collection.insert({papa: "Pierro", maman: "Bolenge"}, (err_creating, results) => {
+    //     if (err_creating) throw err_creating;
 
-        console.log(results);
+    //     console.log(results);
         
+    // })
+
+    collection.findOne({_id: 1}, (err, results) => {
+        console.log(err);
+        console.log(results);
     })
 })

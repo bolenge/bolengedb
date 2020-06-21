@@ -234,7 +234,7 @@ client.connect((err, db) => {
 
 Cette méthode permet de trouver une entrée par rapport au prédicat
 
-* `_id_` : L'identifiant de l'entrée à rechercher
+* `_id` : L'identifiant de l'entrée à rechercher
 * `callback(err, results)` : Cette fonction prend deux paramètres `err` et `results`
     * `err` : L'erreur survenue
     * `results` : Le result, qui est objet ayant deux propriétés :
@@ -249,7 +249,7 @@ client.connect((err, db) => {
     db.collection('users', (err_collection, collection) => {
         if (err_collection) throw err_collection;
 
-        collection.findOne(predicate, (err, results) => {
+        collection.findOneById(1 (err, results) => {
             if (err) throw err;
 
             console.log(results);

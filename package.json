@@ -10,6 +10,7 @@
     "type": "git",
     "url": "https://github.com/bolenge/bolengedb.git"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "keywords": [
     "bolengedb",
     "json",
